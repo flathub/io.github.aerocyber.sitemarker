@@ -31,8 +31,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aerocyber/sitemarker.git",
-                    "tag": "1.2.1",
-		    "commit": "12f946f9fa99234faca240f25dd28330d2b9236f"
+                    "tag": "1.2.2",
+		    "commit": "62947b908e9a614a8bafb6830dfcbd6e99bb8c38"
                 }
             ]
         }
