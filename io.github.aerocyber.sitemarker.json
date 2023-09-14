@@ -5,9 +5,6 @@
     "sdk" : "org.gnome.Sdk",
     "command" : "sitemarker",
     "finish-args" : [
-        "--share=network",
-        "--share=ipc",
-        "--socket=fallback-x11",
         "--device=dri",
         "--socket=wayland"
     ],
@@ -31,8 +28,8 @@
                 {
                     "type" : "git",
                     "url" : "https://github.com/aerocyber/sitemarker.git",
-                    "tag": "1.2.2",
-		    "commit": "fb254e68e6bb88658300e1a3061376138f80eb10"
+                    "tag": "1.2.3",
+		    "commit": "203a6139671555f5df47faf4d8e5633cfd112373"
                 }
             ]
         }
