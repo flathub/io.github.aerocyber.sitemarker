@@ -44,4 +44,4 @@ cp -r flatpak/$projectId.desktop $desktopFileDir/
 # Install the AppStream metadata file.
 metadataDir=/app/share/metainfo
 mkdir -p $metadataDir
-cp -r flatpak/$projectId.appdata.xml $metadataDir/
+cp -r flatpak/$projectId.metainfo.xml $metadataDir/

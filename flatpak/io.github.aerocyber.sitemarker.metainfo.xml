@@ -1,36 +1,35 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <!--Created with jdAppStreamEdit 9.0-->
   <id>io.github.aerocyber.sitemarker</id>
-  <desktop-id>io.github.aerocyber.sitemarker</desktop-id>
+  
   <name>Sitemarker</name>
-  <summary>An open source bookmark manager</summary>
-  <developer>
-    <name>Aero</name>
-    <id>io.github.aerocyber</id>
-  </developer>
-  <metadata_license>CC0-1.0</metadata_license>
+  <summary>An open source bookmark manager.</summary>
+  
+  <metadata_license>CC-BY-4.0</metadata_license>
   <project_license>MIT</project_license>
-  <update_contact>aerocyberdev@proton.me</update_contact>
+  
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  
   <description>
-    <p>An open source bookmark manager</p>
+    <p>
+      Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all the bookmarking needs.
+    </p>
   </description>
+  
+  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <screenshots>
-    <screenshot>
-      <caption>Add Records Dark Theme</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-add.png</image>
-    </screenshot>
     <screenshot type="default">
-      <caption>App Home Dark Theme</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-home.png</image>
+      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-home.png</image>
     </screenshot>
     <screenshot>
-      <caption>Delete Records Light Theme</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-delete.png</image>
+      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-home.png</image>
     </screenshot>
     <screenshot>
-      <caption>App Home Light Theme</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-home.png</image>
+      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-add.png</image>
     </screenshot>
   </screenshots>
   <releases>
@@ -55,13 +54,6 @@
     <category>Utility</category>
     <category>GTK</category>
   </categories>
-  <supports>
-    <control>pointing</control>
-    <control>keyboard</control>
-    <control>touch</control>
-  </supports>
-  <content_rating type="oars-1.1"/>
-  <launchable type="desktop-id">io.github.aerocyber.sitemarker</launchable>
   <keywords>
     <keyword>bookmarks</keyword>
     <keyword>bookmark</keyword>
