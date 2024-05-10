@@ -35,7 +35,7 @@ modules:
         path: flatpak/io.github.aerocyber.sitemarker.desktop
         dest: flatpak/
       - type: file
-        path: flatpak/io.github.aerocyber.sitemarker.appdata.xml
+        path: flatpak/io.github.aerocyber.sitemarker.metainfo.xml
         dest: flatpak/
       - type: file
         path: build-flatpak.sh
