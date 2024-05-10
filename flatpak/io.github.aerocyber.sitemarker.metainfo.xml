@@ -1,35 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
+  <!--Created with jdAppStreamEdit 9.0-->
   <id>io.github.aerocyber.sitemarker</id>
-  
   <name>Sitemarker</name>
-  <summary>An open source bookmark manager.</summary>
-  
+  <summary>An open source bookmark manager</summary>
+  <developer id="io.github.aerocyber">
+    <name>Aero</name>
+  </developer>
   <metadata_license>CC-BY-4.0</metadata_license>
   <project_license>MIT</project_license>
-  
-  <supports>
-    <control>pointing</control>
-    <control>keyboard</control>
-    <control>touch</control>
-  </supports>
-  
+  <update_contact>aerocyberdev@proton.me</update_contact>
   <description>
-    <p>
-      Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all the bookmarking needs.
-    </p>
+    <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all the bookmarking needs.</p>
   </description>
-  
-  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-home.png</image>
+      <caption>Sitemarker Dark</caption>
+      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-home.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-home.png</image>
+      <caption>Sitemarker Light</caption>
+      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-home.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-add.png</image>
+      <caption>Sitemarker: Add entry</caption>
+      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-add.png</image>
     </screenshot>
   </screenshots>
   <releases>
@@ -46,7 +41,7 @@
     <release version="1.0.1" date="2023-05-31" type="stable"/>
     <release version="1.0.0" date="2023-05-30" type="stable"/>
   </releases>
-  <url type="homepage">https://aerocyber.github.io/sitemarker</url>
+  <url type="homepage">https://aerocyber.github.io/sitemarker/</url>
   <url type="bugtracker">https://github.com/aerocyber/sitemarker/issues</url>
   <url type="donation">https://github.com/sponsors/aerocyber</url>
   <url type="vcs-browser">https://github.com/aerocyber/sitemarker</url>
@@ -54,6 +49,15 @@
     <category>Utility</category>
     <category>GTK</category>
   </categories>
+  <supports>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>touch</control>
+  </supports>
+  <content_rating type="oars-1.1">
+    <content_attribute id="money-purchasing">mild</content_attribute>
+  </content_rating>
+  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <keywords>
     <keyword>bookmarks</keyword>
     <keyword>bookmark</keyword>
