@@ -17,8 +17,6 @@ finish-args:
 modules:
   - name: Sitemarker
     buildsystem: simple
-    only-arches:
-      - x86_64
     build-commands:
       - "./build-flatpak.sh"
     sources:
