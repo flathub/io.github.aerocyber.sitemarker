@@ -25,8 +25,6 @@ tar -xf $projectName-$projectVersion-amd64-linux.tar.xz
 
 # Copy the portable app to the Flatpak-based location.
 cp -r $projectName-$projectVersion-amd64-linux/ /app/
-ls /app/
-ls /app/$projectName-$projectVersion-amd64-linux/
 chmod +x /app/$projectName-$projectVersion-amd64-linux/$executableName
 mkdir -p /app/bin
 ln -s /app/$projectName-$projectVersion-amd64-linux/$executableName /app/bin/$executableName
