@@ -26,10 +26,10 @@ tar -xf $projectName-$projectVersion-amd64-linux.tar.xz
 # Copy the portable app to the Flatpak-based location.
 cp -r $projectName-$projectVersion-amd64-linux/ /app/
 ls /app/
-ls /app/sitemarker/
-chmod +x /app/$projectName/$executableName
+ls /app/$projectName-$projectVersion-amd64-linux/
+chmod +x /app/$projectName-$projectVersion-amd64-linux/$executableName
 mkdir -p /app/bin
-ln -s /app/$projectName/$executableName /app/bin/$executableName
+ln -s /app/$projectName-$projectVersion-amd64-linux/$executableName /app/bin/$executableName
 
 # Install the icon.
 iconDirA=/app/share/icons/hicolor/scalable/apps
