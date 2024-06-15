@@ -22,7 +22,7 @@ projectVersion=2.1.1
 # Extract portable Flutter build.
 mkdir -p $projectName
 tar -xf $projectName-$projectVersion-amd64-linux.tar.xz
-mv $projectName-$projectVersion-amd64-linux
+mv $projectName-$projectVersion-amd64-linux $projectName
 
 # Copy the portable app to the Flatpak-based location.
 cp -r $projectName /app/
