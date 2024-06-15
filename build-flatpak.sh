@@ -15,13 +15,13 @@ set -x
 projectName=sitemarker
 projectId=io.github.aerocyber.sitemarker
 executableName=sitemarker
-
+projectVersion=2.1.1
 
 # ------------------------------- Build Flatpak ----------------------------- #
 
 # Extract portable Flutter build.
 mkdir -p $projectName
-tar -xf $projectName-2.0.0-linux.tar.xz -C $projectName
+tar -xf $projectName-$projectVersion-amd64-linux.tar.xz -C $projectName
 
 # Copy the portable app to the Flatpak-based location.
 cp -r $projectName /app/
