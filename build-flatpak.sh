@@ -26,6 +26,8 @@ mv $projectName-$projectVersion-amd64-linux $projectName
 
 # Copy the portable app to the Flatpak-based location.
 cp -r $projectName /app/
+ls /app/
+ls /app/sitemarker/
 chmod +x /app/$projectName/$executableName
 mkdir -p /app/bin
 ln -s /app/$projectName/$executableName /app/bin/$executableName
