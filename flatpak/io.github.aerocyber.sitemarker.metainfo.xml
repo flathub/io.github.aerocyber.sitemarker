@@ -28,11 +28,12 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2.0.0" date="2024-03-31" type="stable">
-      <description>
-        A major rewrite for Sitemarker. With updated UI, powered by a database and with support to Linux, Windows and Android!
-      </description>
+    <release version="2.1.2" date="2024-06-19" type="stable">
+        <description>
+            Bug fix release.
+        </description>
     </release>
+    <release version="2.0.0" date="2024-03-31" type="stable"/>
     <release version="1.2.3" date="2023-09-14" type="stable"/>
     <release version="1.2.2" date="2023-07-01" type="stable"/>
     <release version="1.2.1" date="2023-06-30" type="stable"/>
