@@ -15,21 +15,19 @@ set -x
 projectName=sitemarker
 projectId=io.github.aerocyber.sitemarker
 executableName=sitemarker
-projectVersion=2.1.1
+projectVersion=2.1.2
 
 # ------------------------------- Build Flatpak ----------------------------- #
 
 # Extract portable Flutter build.
 mkdir -p $projectName
-tar -xf $projectName-$projectVersion-amd64-linux.tar.xz
+tar -xf $projectName-$projectVersion-linux.tar.xz
 
 # Copy the portable app to the Flatpak-based location.
-cp -r $projectName-$projectVersion-amd64-linux/ /app/
-ls /app/
-ls /app/$projectName-$projectVersion-amd64-linux/
-chmod +x /app/$projectName-$projectVersion-amd64-linux/$executableName
+cp -r $projectName-$projectVersion-linux/ /app/
+chmod +x /app/$projectName-$projectVersion-linux/$executableName
 mkdir -p /app/bin
-ln -s /app/$projectName-$projectVersion-amd64-linux/$executableName /app/bin/$executableName
+ln -s /app/$projectName-$projectVersion-linux/$executableName /app/bin/$executableName
 
 # Install the icon.
 iconDirA=/app/share/icons/hicolor/scalable/apps
