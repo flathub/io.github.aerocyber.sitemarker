@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <!--Created with jdAppStreamEdit 9.0-->
+  <!--Created with jdAppStreamEdit 9.1-->
   <id>io.github.aerocyber.sitemarker</id>
   <name>Sitemarker</name>
   <summary>An open source bookmark manager</summary>
@@ -14,22 +14,22 @@
     <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all the bookmarking needs.</p>
   </description>
   <screenshots>
+    <screenshot>
+      <caption>dark add</caption>
+      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
+    </screenshot>
     <screenshot type="default">
-      <caption>Sitemarker Dark</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-home.png</image>
+      <caption>Dark home</caption>
+      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
-      <caption>Sitemarker Light</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-light-home.png</image>
-    </screenshot>
-    <screenshot>
-      <caption>Sitemarker: Add entry</caption>
-      <image type="source">https://raw.githubusercontent.com/aerocyber/sitemarker/dev/screenshots/sitemarker-dark-add.png</image>
+      <caption>light home</caption>
+      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
   </screenshots>
   <releases>
     <release version="2.1.2" date="2024-06-19" type="stable">
-        <description>
+      <description>
             Bug fix release.
         </description>
     </release>
