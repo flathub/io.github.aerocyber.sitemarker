@@ -22,7 +22,7 @@ modules:
     sources:
       - type: file
         url: https://github.com/aerocyber/sitemarker/releases/download/2.1.2/sitemarker-2.1.2-linux.tar.xz
-        sha256: af7ca6a71cb92bc3434ea3fa29efe323fea1311a8aaed38da55a9d55098cb7bc
+        sha256: ac343a9c1dcc67ffc7573c043bbbfeef5600e28109ffa057d43144e0b80a232a
       - type: file
         path: flatpak/icons/hicolor/scalable/apps/io.github.aerocyber.sitemarker.svg
         dest: flatpak/icons/hicolor/scalable/apps
