@@ -21,8 +21,8 @@ modules:
       - "./build-flatpak.sh"
     sources:
       - type: file
-        url: https://github.com/aerocyber/sitemarker/releases/download/2.1.2/sitemarker-2.1.2-linux.tar.xz
-        sha256: ac343a9c1dcc67ffc7573c043bbbfeef5600e28109ffa057d43144e0b80a232a
+        url: https://github.com/aerocyber/sitemarker/releases/download/2.2.0/sitemarker-2.2.0-linux.tar.xz
+        sha256: 0a82b8ae85889bba76c857ac5e3a4c765103b01de4d2ef02c917d8e3a0f73f1f
       - type: file
         path: flatpak/icons/hicolor/scalable/apps/io.github.aerocyber.sitemarker.svg
         dest: flatpak/icons/hicolor/scalable/apps
