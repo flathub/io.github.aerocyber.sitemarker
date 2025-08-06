@@ -11,28 +11,29 @@
   <project_license>MIT</project_license>
   <update_contact>aerocyberdev@proton.me</update_contact>
   <description>
-    <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.</p>
+    Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.
   </description>
   <screenshots>
     <screenshot>
-      <caption>dark add</caption>
+      <caption>Add Record - Dark</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
     <screenshot type="default">
-      <caption>Dark home</caption>
+      <caption>Home - light</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
-      <caption>light home</caption>
+      <caption>Home - Light</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
   </screenshots>
-  <releases>
-    <release version="3.0.0" date="2024-12-31" type="stable">
+  <release version="3.1.1" date="2025-28-07" type="stable">
       <description>
-        A major rewrite for Sitemarker enhancing maintainability and updating the UI.
+        Bug fix, mostly aimed at Android. Several changes are global
       </description>
     </release>
+    <release version="3.1.0" date="2025-07-29" type="stable" />
+    <release version="3.0.0" date="2024-12-31" type="stable" />
     <release version="2.0.0" date="2024-03-31" type="stable" />
     <release version="1.2.3" date="2023-09-14" type="stable"/>
     <release version="1.2.2" date="2023-07-01" type="stable"/>
