@@ -14,17 +14,17 @@
     Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.
   </description>
   <screenshots>
+    <screenshot type="default">
+      <caption>Home - Light</caption>
+      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
+    </screenshot>
     <screenshot>
-      <caption>Home - light</caption>
+      <caption>Home - Dark</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
       <caption>Add Record - Dark</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
-    </screenshot>
-    <screenshot>
-      <caption>Home - Light</caption>
-      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
   </screenshots>
   <release version="3.1.1" date="2025-07-28" type="stable">
@@ -61,12 +61,10 @@
   </content_rating>
   <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <keywords>
-    <keyword>bookmarks</keyword>
     <keyword>bookmark</keyword>
     <keyword>bookmark manager</keyword>
-    <keyword>bookmark managers</keyword>
     <keyword>bookmark viewer</keyword>
-    <keyword>bookmark viewers</keyword>
+    <keyword>viewer</keyword>
     <keyword>sitemarker</keyword>
   </keywords>
 </component>
