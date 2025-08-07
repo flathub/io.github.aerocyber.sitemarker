@@ -15,19 +15,19 @@
   </description>
   <screenshots>
     <screenshot>
-      <caption>Add Record - Dark</caption>
-      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
-    </screenshot>
-    <screenshot type="default">
       <caption>Home - light</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
+    </screenshot>
+    <screenshot>
+      <caption>Add Record - Dark</caption>
+      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
     <screenshot>
       <caption>Home - Light</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
   </screenshots>
-  <release version="3.1.1" date="2025-28-07" type="stable">
+  <release version="3.1.1" date="2025-07-28" type="stable">
       <description>
         Bug fix, mostly aimed at Android. Several changes are global
       </description>
