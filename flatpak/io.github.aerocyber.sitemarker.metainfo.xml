@@ -3,27 +3,23 @@
   <!--Created with jdAppStreamEdit 9.2-->
   <id>io.github.aerocyber.sitemarker</id>
   <name>Sitemarker</name>
-  <summary>An open source bookmark manager</summary>
-  <developer id="io.github.aerocyber">
+  <summary>Elegant and simple bookmark manager</summary>
+  <developer>
     <name>Aero</name>
   </developer>
-  <metadata_license>CC-BY-4.0</metadata_license>
-  <project_license>MIT</project_license>
-  <update_contact>aerocyberdev@proton.me</update_contact>
+  <metadata_license>MIT</metadata_license>
+  <project_license>Apache-2.0</project_license>
   <description>
     <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.</p>
   </description>
   <screenshots>
     <screenshot type="default">
-      <caption>Home - Light</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
     <screenshot>
-      <caption>Home - Dark</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
-      <caption>Add Record - Dark</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
   </screenshots>
@@ -47,6 +43,7 @@
   <url type="homepage">https://aerocyber.github.io/sitemarker/</url>
   <url type="bugtracker">https://github.com/aerocyber/sitemarker/issues</url>
   <url type="donation">https://buymeacoffee.com/aerocyber</url>
+  <url type="contact">https://github.com/aerocyber/sitemarker/issues</url>
   <url type="vcs-browser">https://github.com/aerocyber/sitemarker</url>
   <categories>
     <category>Utility</category>
@@ -57,10 +54,6 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
-  <content_rating type="oars-1.1">
-    <content_attribute id="money-purchasing">mild</content_attribute>
-  </content_rating>
-  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <keywords>
     <keyword>bookmark</keyword>
     <keyword>bookmark manager</keyword>
@@ -68,4 +61,6 @@
     <keyword>viewer</keyword>
     <keyword>sitemarker</keyword>
   </keywords>
+  <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
 </component>
