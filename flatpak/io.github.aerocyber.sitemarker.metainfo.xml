@@ -4,14 +4,12 @@
   <id>io.github.aerocyber.sitemarker</id>
   <name>Sitemarker</name>
   <summary>Elegant and simple bookmark manager</summary>
-  <developer>
+  <developer id="io.github.aerocyber">
     <name>Aero</name>
   </developer>
   <metadata_license>MIT</metadata_license>
   <project_license>Apache-2.0</project_license>
-  <description>
-    <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.</p>
-  </description>
+  <description/>
   <screenshots>
     <screenshot type="default">
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
@@ -54,6 +52,8 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
+  <content_rating type="oars-1.1"/>
+  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <keywords>
     <keyword>bookmark</keyword>
     <keyword>bookmark manager</keyword>
@@ -61,6 +61,4 @@
     <keyword>viewer</keyword>
     <keyword>sitemarker</keyword>
   </keywords>
-  <content_rating type="oars-1.1"/>
-  <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
 </component>
