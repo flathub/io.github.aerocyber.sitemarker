@@ -27,7 +27,8 @@
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
   </screenshots>
-  <release version="3.1.1" date="2025-07-28" type="stable">
+  <releases>
+    <release version="3.1.1" date="2025-07-28" type="stable">
       <description>
         Bug fix, mostly aimed at Android. Several changes are global
       </description>
