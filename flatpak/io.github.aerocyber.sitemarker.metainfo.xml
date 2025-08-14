@@ -14,12 +14,15 @@
   </description>
   <screenshots>
     <screenshot type="default">
+      <caption>Home - Light Theme</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
     <screenshot>
+      <caption>Home - Dark Theme</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
+      <caption>Add a new record - Dark Theme</caption>
       <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
   </screenshots>
