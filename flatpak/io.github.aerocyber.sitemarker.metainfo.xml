@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <!--Created with jdAppStreamEdit 9.2-->
+  <!--Created
+  with jdAppStreamEdit 9.2-->
   <id>io.github.aerocyber.sitemarker</id>
   <name>Sitemarker</name>
   <summary>Elegant and simple bookmark manager</summary>
@@ -10,43 +11,55 @@
   <metadata_license>MIT</metadata_license>
   <project_license>Apache-2.0</project_license>
   <description>
-  <p>
-    Sitemarker is an open-source application for managing and organizing bookmarks. 
-    It allows users to add, edit, and delete bookmarks, categorize them, and quickly search stored entries. 
-    The interface supports both light and dark themes and is optimized for mouse, keyboard, and touch input.
-  </p>
-</description>
+    <p>
+      Manage and organize bookmarks for quick access to your favorite websites.
+      Add, edit, and delete entries, and organize them into categories for easier navigation.
+    </p>
+    <p>
+      Features include search, import and export of bookmark files, and a choice between light and
+      dark themes.
+    </p>
+  </description>
+
 
   <screenshots>
     <screenshot type="default">
       <caption>Home - Light Theme</caption>
-      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
+      <image type="source">
+        https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-light-home.png?raw=true</image>
     </screenshot>
     <screenshot>
       <caption>Home - Dark Theme</caption>
-      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
+      <image type="source">
+        https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-home.png?raw=true</image>
     </screenshot>
     <screenshot>
       <caption>Add a new record - Dark Theme</caption>
-      <image type="source">https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
+      <image type="source">
+        https://github.com/aerocyber/sitemarker/blob/main/screenshots/sitemarker-dark-add.png?raw=true</image>
     </screenshot>
   </screenshots>
   <releases>
     <release version="3.1.1" date="2025-07-28" type="stable">
       <description>
-        Bug fix, mostly aimed at Android. Several changes are global
+        <p>
+          Fixed multiple issues affecting Android builds, including interface scaling and touch
+          responsiveness.
+          Applied general improvements to performance and stability across all supported platforms.
+        </p>
       </description>
     </release>
-    <release version="3.1.0" date="2025-07-29" type="stable"/>
-    <release version="3.0.0" date="2024-12-31" type="stable"/>
-    <release version="2.0.0" date="2024-03-31" type="stable"/>
-    <release version="1.2.3" date="2023-09-14" type="stable"/>
-    <release version="1.2.2" date="2023-07-01" type="stable"/>
-    <release version="1.2.1" date="2023-06-30" type="stable"/>
-    <release version="1.2.0" date="2023-06-30" type="stable"/>
-    <release version="1.1.0" date="2023-06-11" type="stable"/>
-    <release version="1.0.1" date="2023-05-31" type="stable"/>
-    <release version="1.0.0" date="2023-05-30" type="stable"/>
+
+    <release version="3.1.0" date="2025-07-29" type="stable" />
+    <release version="3.0.0" date="2024-12-31" type="stable" />
+    <release version="2.0.0" date="2024-03-31" type="stable" />
+    <release version="1.2.3" date="2023-09-14" type="stable" />
+    <release version="1.2.2" date="2023-07-01" type="stable" />
+    <release version="1.2.1" date="2023-06-30" type="stable" />
+    <release version="1.2.0" date="2023-06-30" type="stable" />
+    <release version="1.1.0" date="2023-06-11" type="stable" />
+    <release version="1.0.1" date="2023-05-31" type="stable" />
+    <release version="1.0.0" date="2023-05-30" type="stable" />
   </releases>
   <url type="homepage">https://aerocyber.github.io/sitemarker/</url>
   <url type="bugtracker">https://github.com/aerocyber/sitemarker/issues</url>
@@ -62,7 +75,7 @@
     <control>keyboard</control>
     <control>touch</control>
   </supports>
-  <content_rating type="oars-1.1"/>
+  <content_rating type="oars-1.1" />
   <launchable type="desktop-id">io.github.aerocyber.sitemarker.desktop</launchable>
   <keywords>
     <keyword>bookmark</keyword>
