@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <component type="desktop-application">
-  <!--Created with jdAppStreamEdit 9.1-->
+  <!--Created with jdAppStreamEdit 9.2-->
   <id>io.github.aerocyber.sitemarker</id>
   <name>Sitemarker</name>
   <summary>An open source bookmark manager</summary>
@@ -11,7 +11,7 @@
   <project_license>MIT</project_license>
   <update_contact>aerocyberdev@proton.me</update_contact>
   <description>
-    Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.
+    <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -33,9 +33,9 @@
         Bug fix, mostly aimed at Android. Several changes are global
       </description>
     </release>
-    <release version="3.1.0" date="2025-07-29" type="stable" />
-    <release version="3.0.0" date="2024-12-31" type="stable" />
-    <release version="2.0.0" date="2024-03-31" type="stable" />
+    <release version="3.1.0" date="2025-07-29" type="stable"/>
+    <release version="3.0.0" date="2024-12-31" type="stable"/>
+    <release version="2.0.0" date="2024-03-31" type="stable"/>
     <release version="1.2.3" date="2023-09-14" type="stable"/>
     <release version="1.2.2" date="2023-07-01" type="stable"/>
     <release version="1.2.1" date="2023-06-30" type="stable"/>
