@@ -3,7 +3,7 @@
 ---
 app-id: io.github.aerocyber.sitemarker
 runtime: org.gnome.Platform
-runtime-version: "46"
+runtime-version: "48"
 sdk: org.gnome.Sdk
 command: sitemarker
 separate-locales: false
@@ -21,8 +21,8 @@ modules:
       - "./build-flatpak.sh"
     sources:
       - type: file
-        url: https://github.com/aerocyber/sitemarker/releases/download/3.0.0/sitemarker-3.0.0-linux.tar.xz
-        sha256: 34b036e0a2250625cf30a249821451704014c2368f5dd54424f7742f2695082d
+        url: https://github.com/aerocyber/sitemarker/releases/download/3.1.1/sitemarker-3.1.1-linux.tar.xz
+        sha256: 78985d2ce188e644a3506ea8d532a864e4ee1013df0bd2e80fc2ea67cb23e6c7
       - type: file
         path: flatpak/icons/hicolor/scalable/apps/io.github.aerocyber.sitemarker.svg
         dest: flatpak/icons/hicolor/scalable/apps
