@@ -10,8 +10,13 @@
   <metadata_license>MIT</metadata_license>
   <project_license>Apache-2.0</project_license>
   <description>
-    <p>Sitemarker is an open-source bookmark manager. Created to embrace the style of keeping things simple and organized, Sitemarker provides a simple UI for all bookmarking needs.</p>
-  </description>
+  <p>
+    Sitemarker is an open-source application for managing and organizing bookmarks. 
+    It allows users to add, edit, and delete bookmarks, categorize them, and quickly search stored entries. 
+    The interface supports both light and dark themes and is optimized for mouse, keyboard, and touch input.
+  </p>
+</description>
+
   <screenshots>
     <screenshot type="default">
       <caption>Home - Light Theme</caption>
