@@ -15,7 +15,7 @@ set -x
 projectName=sitemarker
 projectId=io.github.aerocyber.sitemarker
 executableName=sitemarker
-projectVersion=3.1.1
+projectVersion=3.1.2
 
 # ------------------------------- Build Flatpak ----------------------------- #
 
