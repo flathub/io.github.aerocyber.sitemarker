@@ -40,16 +40,20 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="3.1.1" date="2025-07-28" type="stable">
+    <release version="3.1.2" date="2025-08-17" type="stable">
       <description>
         <p>
-          Fixed multiple issues affecting Android builds, including interface scaling and touch
-          responsiveness.
-          Applied general improvements to performance and stability across all supported platforms.
+          Monochromatic icon (initial implementation)
+          Missing INTERNET permission for Android (check for updates, fetch title from url) - FIXED
+          Wrong colours on tag name - FIXED
+          Confirmation dialog shows up on pages even if there are no changes - FIXED
+          Black screen after sharing url to the app - FIXED, Need further testing
+          Unable to add a record due to permanent dialog - FIXED
         </p>
       </description>
     </release>
 
+    <release version="3.1.1" date="2025-08-14" type="stable">
     <release version="3.1.0" date="2025-07-29" type="stable" />
     <release version="3.0.0" date="2024-12-31" type="stable" />
     <release version="2.0.0" date="2024-03-31" type="stable" />
